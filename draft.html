@@ -1,0 +1,16 @@
+<script language="javascript">
+	function PowOfTwo(val) {
+		return val && !(val & (val - 1))
+	}
+	
+	var test = [0,1,2,4,6,8, 96713]
+	
+	for (var i = 0; i < test.length; ++i) {
+		console.log(test[i] + ' - ' + PowOf2(test[i]))
+	}
+	
+	for (i = 0; i < 5000; ++i) {
+		let randomic = Math.floor(Math.random() * 99999) + 10
+		console.log(randomic)
+	}
+</script>
